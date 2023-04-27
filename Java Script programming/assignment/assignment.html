@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <!-- <script src="Biggestnum.js"></script> -->
+    <!-- <script src="add2matrix.js"></script> -->
+    <!-- <script src="sortstring.js"></script> -->
+    <!-- <script src="maxmin.js"></script> -->
+    <!-- <script src="concate.js"></script> -->
+    <!-- <script src="specified.js"></script> -->
+    <!-- <script src="stringtoarray.js"></script> -->
+
+    <!-- <script>
+        function is_regexp(value)
+        {
+       return toString.call(value) === '[object RegExp]';
+        }
+
+        console.log(is_regexp(/saket/));
+
+        console.log(is_regexp('boss'));
+
+        console.log(is_regexp(100));
+    </script> -->
+    <script>
+        function insertionSort(arr){
+   
+    for(let i = 1; i < arr.length;i++){
+        for(let j = i - 1; j > -1; j--){
+            if(arr[j + 1] < arr[j]){
+                [arr[j+1],arr[j]] = [arr[j],arr[j + 1]]
+            }
+        }
+    };
+
+  return arr
+}
+
+console.log(insertionSort([44,22,1,88,100,12,56,18,92,45,]))
+    </script>
+</body>
+</html>
